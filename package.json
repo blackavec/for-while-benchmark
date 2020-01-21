@@ -1,0 +1,15 @@
+{
+  "name": "for-while-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "common.js",
+  "scripts": {
+    "benchmark:time": "node scenarios/time/benchmark",
+    "benchmark:count": "node scenarios/count/benchmark"
+  },
+  "author": "Mahan hazrati <eng.tech.senior@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "nodeplotlib": "^0.6.5"
+  }
+}
